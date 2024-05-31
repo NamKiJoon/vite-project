@@ -1,0 +1,11 @@
+.Main_car {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Main_car > .carousel {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
