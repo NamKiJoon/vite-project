@@ -6,7 +6,7 @@ import "../assets/css/Header.scss";
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="Header" style={{ border: "1px solid black" }}>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/">Re</Navbar.Brand>
@@ -16,6 +16,10 @@ function Header() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/page1">Page1</Nav.Link>
               <Nav.Link href="/page2">Page2</Nav.Link>
+              <Nav.Link href="/page3">Page3</Nav.Link>
+              <Nav.Link href="/page4">Page4</Nav.Link>
+              <Nav.Link href="/page5">Page5</Nav.Link>
+              <Nav.Link href="/page6">Page6</Nav.Link>
             </Nav>
             {/* <Nav.Link
               onClick={() => {

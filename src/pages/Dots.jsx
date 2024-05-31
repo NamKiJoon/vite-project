@@ -16,7 +16,7 @@ const Dot = ({ num, currentPage }) => {
 
 const Dots = ({ currentPage }) => {
   return (
-    <div style={{ position: "fixed", top: "50%", right: 100 }}>
+    <div style={{ position: "fixed", top: "50%", right: 60 }}>
       <div
         style={{
           display: "flex",
@@ -30,6 +30,7 @@ const Dots = ({ currentPage }) => {
         <Dot num={1} currentPage={currentPage}></Dot>
         <Dot num={2} currentPage={currentPage}></Dot>
         <Dot num={3} currentPage={currentPage}></Dot>
+        <Dot num={4} currentPage={currentPage}></Dot>
       </div>
     </div>
   );
