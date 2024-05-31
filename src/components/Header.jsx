@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../assets/css/Header.scss";
+import Button from "react-bootstrap/Button";
 
 function Header() {
   return (
@@ -21,13 +22,14 @@ function Header() {
               <Nav.Link href="/page5">Page5</Nav.Link>
               <Nav.Link href="/page6">Page6</Nav.Link>
             </Nav>
-            {/* <Nav.Link
+            <Button
+              variant="secondary"
               onClick={() => {
-                console.log("click");
+                alert("click");
               }}
             >
-              Login
-            </Nav.Link> */}
+              Btn
+            </Button>{" "}
           </Navbar.Collapse>
         </Container>
       </Navbar>
